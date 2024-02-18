@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./assets//css/elements.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Simple Landing Page</title>
+</head>
+<body>
+    <input type="checkbox" class="close_menu" id="close_menu" role="button" aria-label="Close menu">
+    <label for="close_menu" title="close menu" class="close_menu_label"></label>
+    <aside class="menu_container white_bg">
+        <div class="main_content menu_content1">
+            <h1 onclick="getElementById('close_menu').checked = false"><a href="#home">logo</a></h1>
+            <nav class="menu_content">
+                <ul onclick="getElementById('close_menu').checked = false">
+                    <li><a href="#second_section">intro</a></li>
+                    <li><a href="#third_section">top 3</a></li>
+                    <li><a href="#gallery_section">gallery</a></li>
+                    <li><a href="#fourth_section">work</a></li>
+                    <li><a href="#five_section">pricing</a></li>
+                    <li><a href="#contact_section">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section class="main_bg section" id="home">
+        <div class="main_content intro_content">
+            <div class="main_txt">
+                <h2>JANUARY BRINGS US FIREFOX 85</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="main_img">
+                <img src="./assets/img/intro_img.svg" alt="javascript_image">
+            </div>
+        </div>
+    </section>
+    <section class="second_section white_bg section" id="second_section">
+        <div class="main_content second_content second_main">
+                <h2>Top 3 Jobs</h2>
+                <p>
+                    The release of Apple Silicon-based Macs at the end of last year generated a flurry of news coverage and some surprises at the machine’s performance. This post details some background information on the experience of porting Firefox to run natively on these CPUs. <br><br>
+    
+                    We’ll start with some background on the Mac transition and give an overview of Firefox internals that needed to know about the new architecture, before moving on to the concept of Universal Binaries.<br><br>
+                    
+                    We’ll then explain how DRM/EME works on the new platform, talk about our experience with macOS Big Sur, and discuss various updater problems we had to deal with. We’ll conclude with the release and an overview of various other improvements that are in the pipeline.
+                </p>
+        </div>
+    </section>
+    <section class="main_bg section" id="third_section">
+        <div class="main_content">
+            <div class="top3_main">
+                <div class="top3_txt">
+                    <h2>TOP 3 JOBS</h2>
+                    <p>Here are some recent work.</p>
+                </div>
+                <div class="top3_grid">
+                    <div>
+                        <h3> First</h3>
+                        <p>This button would add a box to the row of key content boxes below the intro text. This should put the box there regardless of where the user is currently writing.</p>
+                    </div>
+                    <div>
+                        <h3> Another site</h3>
+                        <p>I'd suggest having a popup that asks where in the row to insert the box (at the beginning or end), what title to give the box, what text to put in the box, and where the box should link to. The entire box should serve as a link to the destination page.
+                        </p>
+                    </div>
+                    <div>
+                        <h3> Third one</h3>
+                        <p>You can also include a type attribute containing the MIME type of the resource, so a browser can quickly see what resources are on offer, and ignore ones that it doesn’t support                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="white_bg section" id="gallery_section">
+        <div class="main_content">
+            <div class="section_gallery">
+                <div class="gallery_txt">
+                    <h2>gallery</h2>
+                    <p>Here are some of my pics.</p>
+                </div>
+                <div class="gallery_grid">
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image">
+                    </div>
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image">
+                    </div>
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image">
+                    </div>
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image">
+                    </div>
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image">
+                    </div>
+                    <div class="gallery_img">
+                        <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main_bg section" id="fourth_section">
+        <div class="top3_main main_content intro_content">
+                <div class="top3_txt">
+                    <h2>recent jobs</h2>
+                </div>
+                <div class="top3_grid">
+                    <div>
+                        <h3> A good one</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
+                    </div>
+                    <div>
+                        <h3> Great job</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?
+                        </p>
+                    </div>
+                    <div>
+                        <h3> The best</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam perferendis nisi omnis culpa eius optio eos inventore rerum? Harum velit consectetur tempora et numquam distinctio vero exercitationem mollitia laborum inventore?</p>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <section class="white_bg section main" id="five_section">
+            <div class="main_content pricing_txt">
+                <h2>pricing</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil a assumenda eligendi aliquam, iusto ea perspiciatis voluptatum possimus molestiae ab laboriosam veniam voluptatibus, ad expedita cumque similique voluptate voluptas maiores.
+                </p>
+            </div>
+            <div class="main_content div_table_responsive">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <tr>
+                            <th>Title 1</th>
+                            <th>Title 2</th>
+                            <th>Title 3</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 1</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="2">SPAN DOWN</td>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tr>
+                            <td>Content 2</td>
+                            <td>Content 3</td>
+                        </tr>
+                        <tfoot>
+                            <tr><td colspan="3">Footer 1</td></tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </div>
+    </section>
+    <section class="main_bg section" id="contact_section">
+        <div class="main_content intro_content">
+            <div class="main_txt">
+                <h2>CONTACT US</h2>
+                <p>To wrap up January, we are proud to bring you the release of Firefox 85. In this version we are bringing you support for the :focus-visible pseudo-class in CSS and associated devtools, and the complete removal of Flash support from Firefox.</p>
+            </div>
+            <div class="main_img">
+                <img src="../projeto_git/assets/img/contact.svg" alt="contact_image">
+            </div>
+            <div class="contact_form">
+                <fieldset class="form_grid">
+                    <legend>Contact form</legend>
+                    <div class="form_group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Your name">
+                    </div>
+                    <div class="form_group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Your last name">
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email Name</label>
+                        <input type="text" name="email" id="email" placeholder="Your good e-mail">
+                    </div>
+                    <div class="form_group full_width">
+                        <label for="message">Your message:</label>
+                        <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="form_group full_width">
+                        <button name="submit" id="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="footer white_bg">
+        <p><a rel="nofollow" target="_blank" href="#">Feito com <span class="heart">♥</span> por Luana Lacerda.</a></p>
+    </footer>
+
+    <a class="back_to_top" href="#">⮝</a>
+</body>
+</html>
