@@ -95,6 +95,7 @@
     align-items: center;
     gap: var(--gap);
     overflow: hidden;
+    overflow-x: auto;
 }
 .second_main {
     display: flex;
